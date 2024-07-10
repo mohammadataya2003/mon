@@ -1,0 +1,53 @@
+:root {
+    --color1: #d03e25; 
+    --color2: #faa41a;
+  }
+.container-about{
+    position: relative;
+    top: 150px;
+    margin-bottom: 150px;
+}
+#expalin-about{
+    color: #7f2424;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    font-family: auto;
+    font-size:18px;
+    width: 80%;
+    direction: rtl;
+}
+.accordion{
+    width: 80%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+    direction: rtl;
+}
+.accordion .accordion-button {
+    background-color: var(--color2);
+}
+
+/* Team */
+.chart-node {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .chart-node .name {
+    font-weight: bold;
+  }
+  
+  .chart-node .children {
+    margin-top: 10px;
+  }
+  #chart-container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }

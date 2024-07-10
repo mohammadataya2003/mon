@@ -1,0 +1,65 @@
+:root {
+    --color1: #d03e25; 
+    --color2: #faa41a;
+  }  
+#favorites{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #faa41a;
+    border-radius: 25px;
+    width: 80% !important;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+
+}
+button{
+    background-color: var(--color1);
+    padding: 11px;
+    border-radius: 15px;
+    color: #fff;
+}
+
+#favorites img{
+    width: 20%;
+}
+.all-products{
+    position: relative;
+    top: 150px;
+    overflow: hidden;
+    margin-bottom: 200px;
+}
+
+.all-products .row .card{
+margin: 15px;
+text-align: center;
+
+}
+.all-products .row .card img{
+    width: 80%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+.all-products .row .card .card-body .card-title{
+    background-color: var(--color1);
+    color: #fff;
+    padding: 8px;
+    border-radius: 15px;
+}
+.all-products .row .card .card-body .card-text{
+    background-color: var(--color2);
+    color: #fff;
+    padding: 8px;
+    border-radius: 15px;
+}
+.all-products .row .card .link-product{
+    background-color: var(--color1);
+    padding: 3px ;
+    border-radius: 15px;
+    width: 40%;
+    margin-bottom: -15px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 15px;
+}
